@@ -1,0 +1,23 @@
+:host {
+  width: 100%;
+  height: 100%;
+}
+.wrapper {
+  height: 50px;
+  width: 100%;
+  background-color: blueviolet;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .top-nav-sections {
+    width: 20%;
+    height: 100%;
+    p {
+      :hover {
+        color: blue;
+      }
+    }
+  }
+}
