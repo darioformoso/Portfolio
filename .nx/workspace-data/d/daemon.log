@@ -1,0 +1,11 @@
+[NX Daemon Server] - 2024-11-21T00:39:41.728Z - Started listening on: /var/folders/6d/jxw252zd3m15n7wpsb327x0w0000gn/T/f69ffa15e0/d.sock
+[NX Daemon Server] - 2024-11-21T00:39:41.762Z - [WATCHER]: Subscribed to changes within: /Users/darioformoso/Developer/Portfolio (native)
+[NX Daemon Server] - 2024-11-21T00:39:41.764Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-21T00:39:41.765Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-21T00:39:41.768Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-21T00:39:41.769Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-11-21T00:39:41.770Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-11-21T00:39:41.770Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-11-21T00:39:41.772Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-11-21T00:39:41.772Z - [WATCHER]: Stopping the watcher for /Users/darioformoso/Developer/Portfolio (sources)
+[NX Daemon Server] - 2024-11-21T00:39:41.773Z - [WATCHER]: Stopping the watcher for /Users/darioformoso/Developer/Portfolio (outputs)
