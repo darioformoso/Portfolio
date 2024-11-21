@@ -8,9 +8,11 @@
     <span>MENU</span>
     <i class="menu-toggle fa-solid fa-bars"></i>
   </div>
-  <div class="nav-items">
+  <div class="nav-menu">
     @for (item of navItems; track item.key) {
-    <a class="nav-item" href="#">{{item.label}}</a>
+      <div class="nav-menu-item">
+        <a class="nav-menu-item-link" [href]="item.key">{{item.label}}</a>
+      </div>
     }
   </div>
   <!-- <ul class="nav-menu">

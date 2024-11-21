@@ -11,7 +11,7 @@ export class TopNavigationComponent implements OnInit {
   protected navItems: Array<{ key: string, label: string }> = [
     { key: 'home', label: 'Home' },
     { key: 'about', label: 'About' },
-    { key: 'portfolio', label: 'Portfolio' },
+    { key: 'projects', label: 'Projects' },
     { key: 'contactMe', label: 'Contact Me' },
   ];
   constructor() { }
