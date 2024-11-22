@@ -1,123 +1,54 @@
-:host {
+:host,
+.wrapper {
   width: 100%;
   height: 100%;
+  margin: 0;
 }
 * {
   transition: 0.5s;
 }
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-}
 
-.navbar {
-  padding: 12px;
-  width: 100%;
-  background-color: #000;
-  color: #fff;
-}
-
-.nav-menu {
+.wrapper {
   display: flex;
-  align-items: end;
+  flex-direction: row;
+  align-items: center;
   justify-content: end;
-  margin: 8px 8px 8px auto;
+  background-color: black;
+  padding: 10px;
+
+  .nav-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+  }
 }
 
-.nav-logo {
-  cursor: pointer;
-}
-
-.nav-menu-item{
+.nav-menu-item {
   width: 90px;
   display: flex;
   align-items: center;
   justify-content: center;
-  a{
+
+  a {
     text-decoration: none;
-    color:white;
+    color: white;
   }
 
-a:hover {
-  color: orange;
-}
-
-a::after {
-  content: '';
-  display: block;
-  height: 2px;
-  width: 0%;
-  background-color: orange;
-  transition: width 0.5s ease;
-}
-
-a:hover::after {
-  width: 105%;
-}
-}
-
-
-.nav-menu li {
-  display: inline-block;
-  margin: 0 10px 0 0;
-  text-align: center;
-}
-
-.nav-menu-mobile {
-  margin: 0 8px 0 auto;
-  cursor: pointer;
-}
-
-.menu-toggle i {
-  transition: 0.5s;
-}
-
-.nav-dropdown {
-  position: relative;
-}
-.nav-dropdown .dropdown-item {
-  display: none;
-  width: 100px;
-  word-wrap: break-word;
-  color: orange;
-  background-color: #0d0b09;
-}
-
-.nav-dropdown:hover .dropdown-item {
-  transition: 0.5s;
-  display: block;
-  position: absolute;
-}
-
-@media (max-width: 1000px) {
-  .navbar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .nav-logo {
-    margin-left: 0;
-    margin-right: auto;
-  }
-  .nav-menu {
-    display: block;
-    margin: 0;
-    padding: 0;
-  }
-
-  .nav-menu li {
-    display: block;
-    margin: 0;
-    padding: 0;
+  a:hover {
+    color: orange;
   }
 
   a::after {
-    content: '';
-    display: none;
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0%;
+    background-color: orange;
+    transition: width 0.5s ease;
   }
 
   a:hover::after {
-    display: none;
+    width: 105%;
   }
 }
