@@ -2,7 +2,9 @@
   <div class="nav-menu">
     @for (item of navItems; track item.key) {
     <div class="nav-menu-item">
-      <a [href]="item.key">{{ item.label }}</a>
+      <a [class.active]="checkUrl(currentUrl, item.key)" [href]="item.key">{{
+        item.label
+      }}</a>
     </div>
     }
   </div>
