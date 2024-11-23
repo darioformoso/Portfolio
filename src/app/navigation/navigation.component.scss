@@ -1,7 +1,5 @@
-* {
-  transition: 0.5s;
-}
-
+$default-font-size: 14px;
+$active-font-size: 18px;
 .wrapper {
   display: flex;
   flex-direction: row;
@@ -21,7 +19,7 @@
 }
 
 .nav-menu-item {
-  width: 90px;
+  width: 95px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,25 +27,13 @@
   a {
     text-decoration: none;
     color: black;
-    &.active {
+    transition: all 0.3s;
+    font-size: $default-font-size;
+
+    &.active,
+    &:hover {
       color: orange;
+      font-size: $active-font-size;
     }
-  }
-
-  a:hover {
-    color: orange;
-  }
-
-  a::after {
-    content: "";
-    display: block;
-    height: 2px;
-    width: 0%;
-    background-color: orange;
-    transition: width 0.5s ease;
-  }
-
-  a:hover::after {
-    width: 105%;
   }
 }
