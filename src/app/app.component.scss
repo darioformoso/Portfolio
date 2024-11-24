@@ -1,7 +1,9 @@
+@import "./styles/index.scss";
 .wrapper {
+  padding-top: 20px;
   display: flex;
   flex-direction: column;
-  background-color: #ffffff;
+  background-color: $background-color-2;
   align-items: center;
   .content {
     padding: 24px;
