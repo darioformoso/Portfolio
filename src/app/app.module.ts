@@ -9,6 +9,8 @@ import { NotFoundComponent } from './sections/not-found/not-found.component';
 import { AboutComponent } from './sections/about/about.component';
 import { ProjectsComponent } from './sections/projects/projects.component';
 import { ContactMeComponent } from './sections/contactMe/contact-me.component';
+import { LanguageCardComponent } from './components/language-card/language-card.component';
+import { PrimaryButton } from './components/buttons/primary-button/primary-button.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { ContactMeComponent } from './sections/contactMe/contact-me.component';
     AboutComponent,
     ProjectsComponent,
     ContactMeComponent,
+    LanguageCardComponent,
+    PrimaryButton,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
