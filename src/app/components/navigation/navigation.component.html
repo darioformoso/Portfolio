@@ -1,14 +1,18 @@
 <div class="wrapper">
-  <div class="nav-menu">
-    @for (item of navItems; track item.key) {
-    <div class="nav-menu-item">
+  <input class="menu-btn" type="checkbox" id="menu-btn" />
+  <label class="menu-icon" for="menu-btn">
+    <span class="nav-icon"></span
+  ></label>
+  <ul class="menu">
+    @for(item of navItems;track item.key){
+    <li>
       <a
         [class.active]="checkUrl(currentUrl, item.key)"
         [routerLink]="item.key"
         >{{ item.label }}</a
       >
-    </div>
+    </li>
+
     }
-    <primary-button></primary-button>
-  </div>
+  </ul>
 </div>

@@ -9,4 +9,8 @@ export class HomeComponent implements OnInit {
   constructor() {}
 
   public ngOnInit() {}
+
+  public onClick(): void {
+    console.log('clicked');
+  }
 }
