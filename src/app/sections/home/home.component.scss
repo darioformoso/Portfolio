@@ -1,0 +1,15 @@
+@import "../../styles/index.scss";
+.wrapper {
+  display: flex;
+  align-items: center;
+
+  .left-side {
+    margin-right: 20px;
+  }
+
+  .right-side {
+    width: 350px;
+    height: 350px;
+    background-color: $background-color;
+  }
+}

@@ -1,5 +1,8 @@
 <div class="wrapper">
   <button>
-    <ng-content></ng-content>
+    <ng-content />
+    @if(alternativeText){
+    <span>{{ alternativeText }}</span>
+    }
   </button>
 </div>
