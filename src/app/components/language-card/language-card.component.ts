@@ -5,10 +5,8 @@ import { Component, Input, OnInit } from '@angular/core';
   templateUrl: 'language-card.component.html',
   styleUrls: ['language-card.component.scss'],
 })
-export class LanguageCardComponent implements OnInit {
+export class LanguageCardComponent {
   @Input() public name?: string;
   @Input() public link?: string;
   constructor() {}
-
-  public ngOnInit() {}
 }
