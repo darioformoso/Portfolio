@@ -11,9 +11,8 @@
     site, I’m excited to bring your ideas to life.
   </p>
 
-  <div class="cards">
-    @for(card of languageCards; track card.name){
-    <language-card [name]="card.name" [link]="card.link"></language-card>
-    }
-  </div>
+  <icons-section title="Frameworks" [icons]="frameworkIcons"></icons-section>
+  <icons-section title="Languages" [icons]="languageIcons"></icons-section>
+  <icons-section title="Tools" [icons]="toolIcons"></icons-section>
+  <icons-section title="Others" [icons]="otherIcons"></icons-section>
 </div>

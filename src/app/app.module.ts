@@ -11,6 +11,7 @@ import { ProjectsComponent } from './sections/projects/projects.component';
 import { ContactMeComponent } from './sections/contactMe/contact-me.component';
 import { LanguageCardComponent } from './components/language-card/language-card.component';
 import { PrimaryButton } from './components/buttons/primary-button/primary-button.component';
+import { IconsSectionComponent } from './sections/about/sections/icons.section.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { PrimaryButton } from './components/buttons/primary-button/primary-butto
     ContactMeComponent,
     LanguageCardComponent,
     PrimaryButton,
+    IconsSectionComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

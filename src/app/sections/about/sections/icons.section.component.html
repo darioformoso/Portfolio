@@ -1,0 +1,6 @@
+<h3>{{ title }}</h3>
+<div class="icons">
+  @for(icon of icons; track icon.name){
+  <language-card [name]="icon.name" [link]="icon.link"></language-card>
+  }
+</div>
