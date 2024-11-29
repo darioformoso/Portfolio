@@ -12,6 +12,7 @@ import { ContactMeComponent } from './sections/contactMe/contact-me.component';
 import { LanguageCardComponent } from './components/language-card/language-card.component';
 import { PrimaryButton } from './components/buttons/primary-button/primary-button.component';
 import { IconsSectionComponent } from './sections/about/sections/icons.section.component';
+import { ProjectCardComponent } from './sections/projects/project-card/project-card.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { IconsSectionComponent } from './sections/about/sections/icons.section.c
     LanguageCardComponent,
     PrimaryButton,
     IconsSectionComponent,
+    ProjectCardComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

@@ -7,7 +7,7 @@ import { LanguageCardTypes } from '../about.component';
   styleUrls: ['icons.section.component.scss'],
 })
 export class IconsSectionComponent implements OnInit {
-  @Input({ required: true }) public title?: string;
+  @Input({ required: true }) public name?: string;
   @Input({ required: true }) public icons?: LanguageCardTypes;
 
   constructor() {}

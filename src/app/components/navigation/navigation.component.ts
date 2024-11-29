@@ -4,7 +4,6 @@ import { NavigationEnd, Router } from '@angular/router';
 export const NAV_ITEMS: Array<{
   key: string;
   label: string;
-  active?: boolean;
 }> = [
   { key: 'home', label: 'Home' },
   { key: 'about', label: 'About' },
