@@ -12,11 +12,18 @@ $bg: rgba(0, 0, 0, 0.2);
 .container {
   width: 85vw;
   margin: 1rem auto;
+  h2,
+  p {
+    color: white;
+  }
 }
 
 .bg,
 .overlay {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 img,
@@ -44,7 +51,7 @@ img,
     color: #fff;
     opacity: 0;
     h2 {
-      padding-top: 20%;
+      margin-bottom: 10px;
     }
   }
   &:hover {
