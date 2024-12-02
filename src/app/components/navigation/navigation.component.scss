@@ -14,14 +14,15 @@ $active-font-size: 18px;
     padding: 0;
     list-style: none;
     overflow: hidden;
-    background-color: #fff;
+    background-color: $accent-color;
+    border-radius: 25px;
   }
 
   li {
     a {
       display: block;
       padding: 20px 20px;
-      border-right: 1px solid #f4f4f4;
+      border-right: 1px solid $accent-color;
       transition: all 0.3s;
       text-decoration: none;
     }
@@ -30,7 +31,7 @@ $active-font-size: 18px;
   a:hover,
   .active,
   .menu.btn:hover {
-    background-color: #f4f4f4;
+    background-color: $secondary-color;
     color: $primary-color;
     font-size: $active-font-size;
   }
@@ -49,7 +50,7 @@ $active-font-size: 18px;
     user-select: none;
 
     .nav-icon {
-      background: #333;
+      background: $accent-color;
       display: block;
       height: 2px;
       position: relative;
