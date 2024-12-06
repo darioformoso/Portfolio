@@ -22,7 +22,8 @@ a {
   color: $text-color;
 }
 
-p {
+p,
+span {
   font-family: $text-font;
   font-weight: 400;
   font-style: normal;
