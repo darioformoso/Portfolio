@@ -3,10 +3,15 @@
   padding-top: 20px;
   display: flex;
   flex-direction: column;
-  background-color: $background-color-2;
   align-items: center;
+  position: relative;
+  top-navigation {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
   .content {
-    padding: 14px;
+    padding: 30px;
     max-width: 1180px;
     margin: auto;
   }

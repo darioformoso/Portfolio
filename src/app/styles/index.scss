@@ -1,44 +1,14 @@
-// Italian
-// $primary-color: #6b0c04;
-// $secondary-color: #aa7b4f;
-// $background-color: #cabfac;
-// $background-color-2: #e7e6e3;
-// $accent-color: #3a3f5f;
-// $text-color: #33312e;
-
-// $primary-color: #8f0b13;
-// $secondary-color: #380f17;
-// $background-color: #4c4f54;
-// $background-color-2: #efdfc5;
-// $accent-color: #dc2011;
-// $text-color: #252b2b;
-
-// //Purple
-// $secondary-color: #765d67;
-// $primary-color: #6d3c52;
-// $background-color: #2d222f;
-// $background-color-2: #1b0c1a;
-// $accent-color: #dc2011;
-// $text-color: #fadcd5;
-
-// Dark
-// $primary-color: #59001c;
-// $secondary-color: #ffe6e6;
-// $background-color: #30332f;
-// $background-color-2: #0d1216;
-// $accent-color: #c1c1bd;
-// $text-color: white;
-
-// Orange
-$secondary-color: #c5630c;
-$primary-color: #a47f6f;
-$accent-color: #415057;
-$background-color: #33353a;
-$background-color-2: #1a1f24;
-$text-color: white;
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Permanent+Marker&display=swap");
+// Fonts
+$nav-fonts: "Permanent Marker", cursive;
+$headers-font: "Permanent Marker", cursive;
+$button-font: "Bebas Neue", sans-serif;
 
 // Dev
-$primary-color: rgb(151, 117, 250);
-$buttonText: white;
+$primary-color: #a80000;
+$secondary-color: #a80000;
+$button-text: white;
+$text-color: white;
+$accent-color: #707070;
 $background-color: #1b1f22;
 $background-color-2: #1b1f22;

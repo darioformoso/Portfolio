@@ -6,7 +6,6 @@ $default-font-size: 14px;
 $active-font-size: 18px;
 
 .wrapper {
-  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
   width: 100%;
 
   ul {
@@ -14,24 +13,24 @@ $active-font-size: 18px;
     padding: 0;
     list-style: none;
     overflow: hidden;
-    background-color: $accent-color;
-    border-radius: 25px;
+    background-color: $background-color;
   }
 
   li {
     a {
       display: block;
-      padding: 20px 20px;
-      border-right: 1px solid $accent-color;
       transition: all 0.3s;
       text-decoration: none;
+      padding: 15px;
+      font-family: $nav-fonts;
+      font-weight: 400;
+      font-style: normal;
     }
   }
 
   a:hover,
   .active,
   .menu.btn:hover {
-    background-color: $secondary-color;
     color: $primary-color;
     font-size: $active-font-size;
   }
@@ -45,7 +44,6 @@ $active-font-size: 18px;
   .menu-icon {
     cursor: pointer;
     display: inline-block;
-    padding: 28px 20px;
     position: relative;
     user-select: none;
 
@@ -108,7 +106,6 @@ $active-font-size: 18px;
       float: left;
     }
     li a {
-      padding: 20px 30px;
     }
     .menu {
       clear: none;

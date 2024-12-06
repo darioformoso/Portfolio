@@ -1,6 +1,5 @@
 @import "./app/styles/index.scss";
 body {
-  font-family: sans-serif;
   background-color: $background-color-2;
   color: $text-color;
 }
@@ -10,6 +9,12 @@ h1 {
 
 h2 {
   font-size: 30px;
+}
+
+h1,
+h2 {
+  font-family: $headers-font;
+  font-weight: 400;
 }
 
 a {
