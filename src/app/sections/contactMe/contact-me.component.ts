@@ -6,13 +6,13 @@ import emailjs, { type EmailJSResponseStatus } from '@emailjs/browser';
   styleUrls: ['contact-me.component.scss'],
 })
 export class ContactMeComponent implements OnInit {
+  public submitLoading = false;
   constructor() {}
 
   public ngOnInit() {}
   public sendEmail(e: Event) {
-    console.warn('here');
     e.preventDefault();
-
+    this.submitLoading = true;
     emailjs
       .sendForm(
         'my_service123',
@@ -24,7 +24,7 @@ export class ContactMeComponent implements OnInit {
       )
       .then(
         () => {
-          console.log('SUCCESS!');
+          alert('SUCCESS!');
         },
         (error) => {
           console.log('FAILED...', (error as EmailJSResponseStatus).text);
