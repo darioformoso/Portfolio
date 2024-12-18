@@ -7,6 +7,8 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class PrimaryButton implements OnInit {
   @Input() public alternativeText?: string;
+  @Input() public height?: string;
+  @Input() public width?: string;
   constructor() {}
 
   public ngOnInit() {}

@@ -7,6 +7,11 @@ import emailjs, { type EmailJSResponseStatus } from '@emailjs/browser';
 })
 export class ContactMeComponent implements OnInit {
   public submitLoading = false;
+
+  public fields = [
+    { label: 'Full Name', id: 'user_name' },
+    { label: 'Email', id: 'user_email' },
+  ];
   constructor() {}
 
   public ngOnInit() {}
