@@ -1,7 +1,11 @@
 <div class="wrapper">
-  <button [style.height]="height" [style.width]="width">
+  <button [style.height]="height" [style.width]="width" [disabled]="loading">
+    @if(!loading){
     <span>
       <ng-content />
     </span>
+    } @else{
+    <div class="loader"></div>
+    }
   </button>
 </div>

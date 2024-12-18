@@ -34,6 +34,7 @@ export class ContactMeComponent implements OnInit {
         (error) => {
           console.log('FAILED...', (error as EmailJSResponseStatus).text);
         }
-      );
+      )
+      .then(() => (this.submitLoading = false));
   }
 }

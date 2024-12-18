@@ -27,7 +27,11 @@
       rows="10"
       cols="50"
     ></textarea>
-    <primary-button width="100%" type="submit" value="Send Message"
+    <primary-button
+      width="100%"
+      type="submit"
+      value="Send Message"
+      [loading]="submitLoading"
       >Send Message</primary-button
     >
   </div>
