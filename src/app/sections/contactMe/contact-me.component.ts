@@ -28,9 +28,7 @@ export class ContactMeComponent implements OnInit {
         }
       )
       .then(
-        () => {
-          alert('SUCCESS!');
-        },
+        () => {},
         (error) => {
           console.log('FAILED...', (error as EmailJSResponseStatus).text);
         }

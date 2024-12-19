@@ -6,13 +6,8 @@
   <ul class="menu">
     @for(item of navItems;track item.key){
     <li>
-      <a
-        [class.active]="checkUrl(currentUrl, item.key)"
-        [routerLink]="item.key"
-        >{{ item.label }}</a
-      >
+      <a routerLinkActive="active" [routerLink]="item.key">{{ item.label }}</a>
     </li>
-
     }
   </ul>
 </div>
