@@ -6,11 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['home.component.scss'],
 })
 export class HomeComponent implements OnInit {
+  public url =
+    'https://drive.google.com/file/d/1iZFgYhcCeymNXnTEVO4erfl_K7c_NHID/view?usp=sharing';
   constructor() {}
 
   public ngOnInit() {}
 
   public onClick(): void {
-    console.log('clicked');
+    window.open(this.url, '_blank');
   }
 }
