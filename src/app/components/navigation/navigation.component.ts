@@ -16,6 +16,5 @@ export const NAV_ITEMS: Array<{
 })
 export class TopNavigationComponent {
   protected navItems = NAV_ITEMS;
-  protected currentUrl = '';
   constructor() {}
 }
