@@ -8,5 +8,4 @@ import { Component, Input, OnInit } from '@angular/core';
 export class LanguageCardComponent {
   @Input() public name?: string;
   @Input() public link?: string;
-  constructor() {}
 }

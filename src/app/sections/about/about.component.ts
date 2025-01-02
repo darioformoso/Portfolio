@@ -1,5 +1,4 @@
-import { animate, style, transition, trigger } from '@angular/animations';
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 export type LanguageCardType = {
   name: string;
@@ -12,7 +11,7 @@ export type LanguageCardTypes = LanguageCardType[];
   templateUrl: 'about.component.html',
   styleUrls: ['about.component.scss'],
 })
-export class AboutComponent implements OnInit {
+export class AboutComponent {
   public frameworkIcons: LanguageCardTypes = [
     {
       name: 'Angular',
@@ -87,8 +86,4 @@ export class AboutComponent implements OnInit {
       link: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg',
     },
   ];
-
-  constructor() {}
-
-  public ngOnInit() {}
 }
