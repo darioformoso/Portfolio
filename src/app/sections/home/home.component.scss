@@ -9,7 +9,17 @@
 
   .left-side {
     margin-right: 20px;
+
+    .info {
+      display: flex;
+      align-items: center;
+
+      primary-button {
+        margin-right: 1rem;
+      }
+    }
   }
+
   h1 {
     display: inline-block;
   }

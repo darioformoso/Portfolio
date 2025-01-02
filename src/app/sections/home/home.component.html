@@ -3,9 +3,16 @@
     <h1>Hi, I'm</h1>
     <h1 class="name">&nbsp;Formi</h1>
     <h2>a Front-End Developer</h2>
-    <primary-button (click)="onClick()" alternativeText="Download"
-      >Resume</primary-button
-    >
+    <div class="info">
+      <primary-button (click)="onClick()" alternativeText="Download"
+        >Resume</primary-button
+      >
+      <div class="links">
+        @for(icon of icons; track icon.icon){
+        <home-link [icon]="icon.icon" [link]="icon.link"></home-link>
+        }
+      </div>
+    </div>
   </div>
   <div class="right-side"></div>
 </div>

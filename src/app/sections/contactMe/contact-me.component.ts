@@ -31,6 +31,18 @@ export class ContactMeComponent {
           console.log('FAILED...', (error as EmailJSResponseStatus).text);
         }
       )
-      .then(() => (this.submitLoading = false));
+      .then(() => {
+        this.submitLoading = false;
+        const form = document.getElementById(
+          'contactForm'
+        ) as HTMLFormElement | null;
+        if (form) {
+          form.reset();
+        }
+      });
+    const form = document.getElementById(
+      'contactForm'
+    ) as HTMLFormElement | null;
+    form?.reset();
   }
 }

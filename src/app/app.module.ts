@@ -13,6 +13,7 @@ import { LanguageCardComponent } from './components/language-card/language-card.
 import { PrimaryButton } from './components/buttons/primary-button/primary-button.component';
 import { IconsSectionComponent } from './sections/about/sections/icons.section.component';
 import { ProjectCardComponent } from './sections/projects/project-card/project-card.component';
+import { HomeLinkComponent } from './components/home-links/home-link.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { ProjectCardComponent } from './sections/projects/project-card/project-c
     PrimaryButton,
     IconsSectionComponent,
     ProjectCardComponent,
+    HomeLinkComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
